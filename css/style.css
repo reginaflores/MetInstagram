@@ -1,0 +1,55 @@
+
+/*
+
+
+
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/*body {
+	background-image: url('images/cabo.jpg');
+	background-position: left;
+	background-attachment: fixed;
+	background-size: 1400px 825px;
+	background-repeat: no-repeat;
+}*/
+
+body{
+	background: url('images/splash2_small.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header{
+
+	float:right;
+	margin-right: 20px;
+}
+
+a{
+	font-family: 'Lato', sans-serif;	
+	font-style: bold;  	
+	font-style: normal;
+  	/*font-weight: 400;*/
+  	font-size: 40px;
+	color: #8d1818;
+	margin-left: 150px;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none; /* removing bullets */
+	font-family: 'Lato', sans-serif;	font-style: bold;
+	text-decoration: none;
+	font-size: 25px;
+	float: right; 
+	padding: 3px;
+	margin-top: -39px;
+	margin-left: 3px;
+	margin-right: 29px;
+	text-align: bottom;
